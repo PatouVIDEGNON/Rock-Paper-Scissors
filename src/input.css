@@ -1,0 +1,147 @@
+
+body{
+    font-family: 'Poppins';font-size: 18px;
+
+}
+
+#header{
+    background-color: #3A98B9;
+    color: aliceblue;
+    margin-top: 0%;
+    padding: 20px;
+
+    
+}
+#header h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#section-Result{
+    background-color: #FFF1DC;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5rem;
+
+}
+
+#section-Result div{
+    height: 5rem;
+    width: 25%;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1%;
+    margin-top: 0.5%;
+
+}
+
+
+.playerScore, .winner, .cpuScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.playerScore span:first-of-type, .winner span:first-of-type, .cpuScore span:first-of-type {
+
+border: 2px solid #4393b1;
+font-style: italic;
+font-weight: 900;
+color: #2C3333;
+background-color:#f7f2ea ;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+overflow: hidden;
+
+}
+/*nouvelle section */
+
+#section-of-choice{
+    background-color: #E8D5C4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.choice-div{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.choice-div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: black 2px solid;
+}
+.choice-div div img{
+    width: 50%;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    
+}
+/*Nouvelle section*/
+
+#section-cpu-display{
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.choixCpu{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+
+.choixCpu > div {
+    border: red 2px solid;
+    width: 50%;
+    margin: auto;
+    display: block;
+   
+}
+
+.choixCpu div img{
+    width: 50%;
+    margin: auto;
+    display: block;
+    cursor: none;
+}
+
+#section-playAgain{
+    background-color: #2C3333;
+    text-align: center;
+    height: 6rem;
+}
+
+#section-playAgain button{
+    
+    margin-top: 2.5%;
+    background-color: white;
+    padding: 12px;
+    font-weight: bolder;
+    color: #2C3333;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: #2C3333;
+
+}
+
+#section-playAgain button:active{
+    background-color: #c2c7c7;
+    cursor: pointer;
+    border-color: red;
+    box-shadow: #00ffff;
+}
